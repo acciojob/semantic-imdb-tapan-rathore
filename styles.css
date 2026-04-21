@@ -1,2 +1,54 @@
-
 /* Your CSS Code here. */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	color:white;
+}
+body{
+	height:60vh;
+	background-image: 
+		linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2), transparent), 
+		url("https://www.legendary.com/wp-content/uploads/2021/10/Dune414621.jpg");
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+}	
+
+header{
+	font-family: "Averia Libre", system-ui;
+	padding:10px 20px;
+	margin-top:350px;
+	font-size:80px
+	/* background-color:red; */
+}
+nav{
+	text-align:right;
+}
+a{
+	text-decoration:none;
+	padding:20px;
+	color:white;
+	font-size:25px;	
+}
+
+summary{
+	width:60%;
+	padding:20px;
+	color:#dddddd
+}
+
+section{
+	text-align:right;
+	padding:5px 20px;
+}
+
+aside{
+	margin:20px;
+	color:#dddddd;
+}
+
+footer{
+	color:#dddddd;
+	text-align:center
+}
